@@ -224,6 +224,7 @@ html {
 .fifth-section {
   position: relative;
   min-height: 1004px;
+  background: #EEEFF1
 }
 .fifth-section__h {
   font-size: 32px;
