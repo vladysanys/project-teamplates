@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container-2 {
+  max-width: 1150px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main-section {
+  position: relative;
+  min-height: 700px;
+  background: #EEEFF1;
+  margin-bottom: 112px;
+}
+.main-section__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-section__wrappers {
+  display: flex;
+  flex-direction: row;
+}
+.main-section__left-wrapper {
+  position: relative;
+  width: 555px;
+  height: 600px;
+}
+.main-section__left-wrapper_icon {
+  position: absolute;
+  top: 160px;
+  left: 83px;
+}
+.main-section__right-wrapper {
+  position: relative;
+  width: 555px;
+  height: 600px;
+}
+.main-section__right-wrapper_text_h {
+  position: absolute;
+  font-size: 48px;
+  top: 140px;
+  margin: 0px;
+  font-style: normal;
+  font-weight: 400;
+}
+.main-section__right-wrapper_text_p {
+  position: absolute;
+  top: 240px;
+  color: #727272;
+  line-height: 150%;
+}
+.main-section__right-wrapper__button {
+  position: absolute;
+  background-color: #34547A;
+  width: 225px;
+  height: 65px;
+  top: 365px;
+}
+.main-section__right-wrapper__button_properties {
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+.main-section__right-wrapper__button_properties:hover {
+  color: #c9c9c9;
+}
+.main-section__right-wrapper__button_text {
+  text-align: center;
+  padding-top: 26px;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.icon-main {
+  margin-top: 54px;
+  width: 96px;
+}
+
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+  margin-top: 62px;
+  width: 548px;
+}
+.nav-menu__list_item {
+  margin-right: 42px;
+  display: block;
+}
+.nav-menu__list_item__properties {
+  text-decoration: none;
+  outline: none;
+  color: black;
+}
+.nav-menu__list_item__properties:hover {
+  color: #34547A;
+}
+.nav-menu__list_item:last-child {
+  margin-right: 0px;
+}
+
+.second-section {
+  min-height: 247px;
+}
+.second-section__h2 {
+  font-size: 32px;
+  font-style: bold;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.second-section__text {
+  width: 500px;
+  margin: 0 auto;
+  line-height: 150%;
+}
+.second-section__p {
+  text-align: center;
+  color: #727272;
+}
+
+.third-section {
+  position: relative;
+  min-height: 250px;
+  background: #34547A;
+}
+.third-section__box {
+  display: flex;
+  justify-content: space-between;
+}
+.third-section__container {
+  padding-top: 100px;
+  display: inline-flex;
+  margin-right: 50px;
+}
+.third-section__container:last-child {
+  margin-right: 0px;
+}
+.third-section__svg {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
+.third-section__text {
+  color: white;
+}
+.third-section__span {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.fourth-section {
+  min-height: 650px;
+  position: relative;
+}
+.fourth-section__wrappers {
+  display: flex;
+  flex-direction: row;
+}
+.fourth-section__left-wrapper {
+  height: 650px;
+  width: 575px;
+}
+.fourth-section__right-wrapper {
+  position: relative;
+  height: 650px;
+  width: 575px;
+}
+.fourth-section__h {
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 200px;
+  margin-bottom: 50px;
+}
+.fourth-section__p {
+  color: #727272;
+  margin-bottom: 30px;
+}
+.fourth-section__p:last-child {
+  margin-bottom: 0px;
+}
+.fourth-section__text {
+  margin-bottom: 20px;
+}
+.fourth-section__hr-1 {
+  width: 445px;
+  height: 4px;
+  background-color: #C4C4C4;
+  margin-left: 0px;
+  border: none;
+  z-index: 1;
+}
+.fourth-section__hr-2 {
+  width: 350px;
+  height: 4px;
+  background-color: #34547A;
+  margin-left: 0px;
+  border: none;
+  z-index: 2;
+  margin-top: -12px;
+}
+.fourth-section__img {
+  position: absolute;
+  width: 555px;
+  height: 450px;
+  top: 102px;
+  left: 21px;
+}
+
+.fifth-section {
+  position: relative;
+  min-height: 1004px;
+}
+.fifth-section__h {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+.fifth-section__p {
+  text-align: center;
+  line-height: 160%;
+  width: 540px;
+  margin: 0 auto;
+  margin-bottom: 57px;
+}
+.fifth-section__video {
+  height: 600px;
+  width: 1110px;
+}
+
+/*# sourceMappingURL=style.css.map */
